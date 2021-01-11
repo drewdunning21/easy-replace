@@ -10,7 +10,7 @@ endfun
 command! -nargs=0 ReplaceP call EasyReplace('(',')')
 command! -nargs=0 ReplaceB call EasyReplace('[',']')
 command! -nargs=0 ReplaceC call EasyReplace('{','}')
-command! -nargs=0 ReplaceA call EasyReplace('<','\>')
+command! -nargs=0 ReplaceA call EasyReplace("<",">")
 
 nnoremap <silent> ci( :ReplaceP<CR>
 nnoremap <silent> ci[ :ReplaceB<CR>
